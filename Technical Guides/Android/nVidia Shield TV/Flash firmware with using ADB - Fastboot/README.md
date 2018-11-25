@@ -39,13 +39,13 @@ Try to disable forced driver signature verification in Windows.
 * [HoToGeek.com - How to disable driver signature verification on 64 bit Windows 8.1 so you can install unsigned drivers](
 https://www.howtogeek.com/167723/how-to-disable-driver-signature-verification-on-64-bit-windows-8.1-so-that-you-can-install-unsigned-drivers/)
 #### Disable driver signature verification on Windows 8.1 & 10
-		* UEFI Secure Boot = Off
-		* CMD as admin: "bcdedit /set testsigning on"
-    * Reboot
+* UEFI Secure Boot = Off
+* CMD as admin: "bcdedit /set testsigning on"
+* Reboot
 #### Enable driver signature verification on Windows 8.1 & 10
-		* UEFI Secure Boot = On
-		* CMD as admin: "bcdedit /set testsigning off"
-    * Reboot
+* UEFI Secure Boot = On
+* CMD as admin: "bcdedit /set testsigning off"
+* Reboot
 
 ## Resources
 ### nVidia Support
